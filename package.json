@@ -1,0 +1,23 @@
+{
+  "name": "pong",
+  "description": "An awesome real time application",
+  "version": "0.0.1",
+  "author": "Me <me@mydomain.com>",
+  "private": true,
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "socketstream": "0.3.x",
+    "ss-coffee": "0.1.x",
+    "ss-jade": "0.1.x",
+    "ss-stylus": "0.1.x",
+    "ss-hogan": "0.1.x",
+    "ar-drone": "git://github.com/felixge/node-ar-drone.git#master",
+    "johnny-five": "~0.6.18",
+    "buffy": "0.0.5"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

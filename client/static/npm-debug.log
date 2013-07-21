@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.4/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'search',
+1 verbose cli   'ar-drone' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose url raw /-/all/since?stale=update_after&startkey=1368480535454
+5 verbose url resolving [ 'https://registry.npmjs.org/',
+5 verbose url resolving   './-/all/since?stale=update_after&startkey=1368480535454' ]
+6 verbose url resolved https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1368480535454
+7 info trying registry request attempt 1 at 16:17:41
+8 http GET https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1368480535454
+9 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+10 info trying registry request attempt 2 at 16:17:51
+11 http GET https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1368480535454
+12 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+13 info trying registry request attempt 3 at 16:18:51
+14 http GET https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1368480535454
+15 error Error: getaddrinfo ENOTFOUND
+15 error     at errnoException (dns.js:37:11)
+15 error     at Object.onanswer [as oncomplete] (dns.js:124:16)
+16 error If you need help, you may report this log at:
+16 error     <http://github.com/isaacs/npm/issues>
+16 error or email it to:
+16 error     <npm-@googlegroups.com>
+17 error System Darwin 12.4.0
+18 error command "/usr/local/Cellar/node/0.10.4/bin/node" "/usr/local/bin/npm" "search" "ar-drone"
+19 error cwd /Users/mauro/src/pong/client/static
+20 error node -v v0.10.4
+21 error npm -v 1.2.18
+22 error syscall getaddrinfo
+23 error code ENOTFOUND
+24 error errno ENOTFOUND
+25 verbose exit [ 1, true ]
